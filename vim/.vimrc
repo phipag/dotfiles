@@ -1,6 +1,6 @@
 "Reference: https://danielmiessler.com/study/vim/
 
-"Remove <ESC> key for leaving insert mode
+"Enable jk shortcut for leaving insert mode 
 inoremap jk <ESC>
 
 "Leader key <Space>

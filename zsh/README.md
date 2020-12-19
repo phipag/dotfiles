@@ -1,5 +1,5 @@
 # Installation
-Follow the [Getting Started](https://github.com/phipag/dotfiles/blob/main/README.md) guide first.
+Follow the [Getting Started](https://github.com/phipag/dotfiles/blob/main/README.md) guide first. Specifically, make sure that all Git submodules are correclty loaded.
 
 Symlink `.zshrc`, `.p10k.zsh` and `.oh-my-zsh` to your home directory.
 ```sh

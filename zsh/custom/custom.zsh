@@ -8,5 +8,5 @@
 # brainstormr=~/Projects/development/planetargon/brainstormr
 # cd $brainstormr
 
-# Jenv to manage multiple java versions
+# Jenv to manage multiple java versions (Comment out if you do not use it)
 eval "$(jenv init -)"

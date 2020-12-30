@@ -13,4 +13,4 @@ Copy the `custom` folder to your `~/.oh-my-zsh` folder.
 cp -r ~/.dotfiles/zsh/custom ~/.oh-my-zsh
 ```
 
-Optional: Add your own `*.zsh` files or plugins to `~/.oh-my-zsh/custom`. It is fully compatible with the [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) framework.
+Optional: Add your own `*.zsh` files, plugins or themes to `~/.oh-my-zsh/custom`. It is fully compatible with the [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) framework.

@@ -13,3 +13,6 @@
 [submodule "zsh/custom/plugins/zsh-z"]
 	path = zsh/custom/plugins/zsh-z
 	url = https://github.com/agkozak/zsh-z.git
+[submodule "zsh/custom/plugins/zsh-nvm"]
+	path = zsh/custom/plugins/zsh-nvm
+	url = https://github.com/lukechilds/zsh-nvm

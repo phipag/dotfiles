@@ -1,5 +1,8 @@
 "Reference: https://danielmiessler.com/study/vim/
 
+"Enable line numbers by default
+set number
+
 "Enable jk shortcut for leaving insert mode 
 inoremap jk <ESC>
 

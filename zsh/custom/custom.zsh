@@ -9,11 +9,11 @@
 # cd $brainstormr
 
 # Jenv to manage multiple java versions (Comment out if you do not use it)
-eval "$(jenv init -)"
+_evalcache jenv init -
 
-# Handy utility function to measure Shell startup performance
-# Source: https://blog.mattclemente.com/2020/06/26/oh-my-zsh-slow-to-load.html
+# Function to time the shell startup
 timezsh() {
   shell=${1-$SHELL}
   for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
 }
+

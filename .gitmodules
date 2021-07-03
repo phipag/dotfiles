@@ -19,3 +19,6 @@
 [submodule "zsh/custom/plugins/zsh-auto-nvm-use"]
 	path = zsh/custom/plugins/zsh-auto-nvm-use
 	url = https://github.com/Sparragus/zsh-auto-nvm-use
+[submodule "zsh/custom/plugins/evalcache"]
+	path = zsh/custom/plugins/evalcache
+	url = https://github.com/mroth/evalcache

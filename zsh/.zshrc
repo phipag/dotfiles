@@ -1,3 +1,6 @@
+# Enable zsh profiler to measure shell start time
+zmodload zsh/zprof
+
 ZSH_DISABLE_COMPFIX=true
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -76,7 +79,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm zsh-auto-nvm-use)
+export NVM_LAZY_LOAD=true
+export NVM_COMPLETION=true
+plugins=(evalcache git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm zsh-auto-nvm-use)
 
 source $ZSH/oh-my-zsh.sh
 

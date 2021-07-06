@@ -11,9 +11,3 @@
 # Jenv to manage multiple java versions (Comment out if you do not use it)
 _evalcache jenv init -
 
-# Function to time the shell startup
-timezsh() {
-  shell=${1-$SHELL}
-  for i in $(seq 1 10); do /usr/bin/time $shell -i -c exit; done
-}
-

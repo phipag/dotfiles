@@ -17,6 +17,7 @@ Configure the [Powerlevel10k](https://github.com/romkatv/powerlevel10k) theme.
 ```sh
 p10k configure
 ```
+If you want to use my existing powerlevel10k config just exit the `p10k configure` command after installing the Meslo Nerd font. If you want to configure your own follow the instructions.
 
 Optional: Add your own `*.zsh` files, plugins or themes to `~/.oh-my-zsh/custom`. It is fully compatible with the [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) framework.
 

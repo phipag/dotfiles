@@ -70,7 +70,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
-plugins=(evalcache git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm zsh-auto-nvm-use)
+export ZSH_PYENV_QUIET=false
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm zsh-auto-nvm-use pyenv)
 
 source $ZSH/oh-my-zsh.sh
 

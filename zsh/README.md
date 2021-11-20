@@ -19,3 +19,9 @@ p10k configure
 ```
 
 Optional: Add your own `*.zsh` files, plugins or themes to `~/.oh-my-zsh/custom`. It is fully compatible with the [Oh My ZSH](https://github.com/ohmyzsh/ohmyzsh) framework.
+
+# Development
+Updating all plugins is equal to pulling all git submodules from remote.
+```sh
+git submodule update --remote --recursive
+```

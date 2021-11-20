@@ -2,7 +2,7 @@
 ## Prerequisites
 Follow the [Getting Started](https://github.com/phipag/dotfiles/blob/main/README.md) guide first. Specifically, make sure that all Git submodules are correctly loaded.
 
-This setup uses the following tools. Checkout the [zsh/brew]() directory to find instructions on how to install all prerequisites.
+This setup uses the following tools. Checkout the [brew](https://github.com/phipag/dotfiles/tree/main/brew) directory to find instructions on how to install all prerequisites.
 * [Homebrew](https://github.com/Homebrew/brew): MacOS package manager
 * [pyenv](https://github.com/pyenv/pyenv): Python version manager
 * [jenv](https://github.com/jenv/jenv): Java version manager

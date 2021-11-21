@@ -71,7 +71,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
 export ZSH_PYENV_QUIET=false
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm zsh-auto-nvm-use pyenv)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm zsh-auto-nvm-use pyenv poetry)
 
 source $ZSH/oh-my-zsh.sh
 

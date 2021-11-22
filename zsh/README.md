@@ -39,3 +39,11 @@ Updating all plugins is equal to pulling all git submodules from remote.
 ```sh
 git submodule update --remote --recursive
 ```
+
+# Notes
+## Autocompletion
+The zsh docs outline that autocompletion works based on the `$fpath` variable. All paths in this variable will be searched for autocompletion. The autoloaded functions concept will load the autocompletion definition files (https://zsh.sourceforge.io/Doc/Release/Completion-System.html#Completion-System):
+
+> The convention for autoloaded functions used in completion is that they start with an underscore; as already mentioned, the fpath/FPATH parameter must contain the directory in which they are stored. If zsh was properly installed on your system, then fpath/FPATH automatically contains the required directories for the standard functions.
+
+If you want to add your own custom autocompletions to this Oh My ZSH setup you can simply place the autocompletions as autoloaded function to the `custom/plugins/<command>/<_command>` path. Oh My ZSH will automatically add plugin folders to the `$fpath` variable.

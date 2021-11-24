@@ -16,6 +16,3 @@
 [submodule "zsh/custom/plugins/zsh-nvm"]
 	path = zsh/custom/plugins/zsh-nvm
 	url = https://github.com/lukechilds/zsh-nvm
-[submodule "zsh/custom/plugins/zsh-auto-nvm-use"]
-	path = zsh/custom/plugins/zsh-auto-nvm-use
-	url = https://github.com/Sparragus/zsh-auto-nvm-use

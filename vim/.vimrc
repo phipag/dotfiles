@@ -15,3 +15,9 @@ syntax on
 set encoding=utf-8
 set clipboard=unnamedplus
 set backspace=indent,eol,start
+
+"Force me to not use the arrow keys for navigation
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>

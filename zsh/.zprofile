@@ -13,3 +13,7 @@ fi
 
 # Init pyenv
 eval  "$(pyenv init --path)"
+
+# User local bins
+export PATH="$PATH:/Users/pagejep/.local/bin"
+

@@ -71,7 +71,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 export NVM_LAZY_LOAD=true
 export NVM_COMPLETION=true
 export ZSH_PYENV_QUIET=false
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm pyenv poetry aws)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm pyenv poetry aws tmux)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -103,3 +103,4 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+

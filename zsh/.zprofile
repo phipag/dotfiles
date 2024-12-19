@@ -17,3 +17,10 @@ eval  "$(pyenv init --path)"
 # User local bins
 export PATH="$PATH:/Users/pagejep/.local/bin"
 
+# Add Visual Studio Code (code)
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
+# Set up mise for runtime management
+eval "$(mise activate zsh)"
+source /Users/pagejep/.brazil_completion/zsh_completion
+

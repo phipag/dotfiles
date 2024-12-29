@@ -22,5 +22,4 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 
 # Set up mise for runtime management
 eval "$(mise activate zsh)"
-source /Users/pagejep/.brazil_completion/zsh_completion
 

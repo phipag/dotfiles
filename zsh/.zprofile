@@ -15,7 +15,7 @@ fi
 eval  "$(pyenv init --path)"
 
 # User local bins
-export PATH="$PATH:/Users/pagejep/.local/bin"
+export PATH="$PATH:$HOME/.local/bin"
 
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"

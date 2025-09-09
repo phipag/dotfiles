@@ -68,10 +68,8 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-export NVM_LAZY_LOAD=true
-export NVM_COMPLETION=true
 export ZSH_PYENV_QUIET=false
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm zsh-nvm pyenv poetry aws tmux)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm poetry aws tmux)
 
 source $ZSH/oh-my-zsh.sh
 

@@ -70,10 +70,12 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-export ZSH_PYENV_QUIET=false
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm poetry aws tmux)
 
 source $ZSH/oh-my-zsh.sh
+
+# mise - dev tools version manager
+eval "$(mise activate zsh)"
 
 # User configuration
 

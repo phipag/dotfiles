@@ -13,17 +13,11 @@ else
     eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 
-# Init pyenv
-eval  "$(pyenv init --path)"
-
 # User local bins
 export PATH="$PATH:$HOME/.local/bin"
 
 # Add Visual Studio Code (code)
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
-# Set up mise for runtime management
-eval "$(mise activate zsh)"
 
 # Kiro CLI post block. Keep at the bottom of this file.
 [[ -f "${HOME}/Library/Application Support/kiro-cli/shell/zprofile.post.zsh" ]] && builtin source "${HOME}/Library/Application Support/kiro-cli/shell/zprofile.post.zsh"

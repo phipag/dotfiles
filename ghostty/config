@@ -1,0 +1,24 @@
+# Font
+font-family = "MesloLGS NF"
+font-size = 14
+font-thicken = true
+
+# Window
+window-save-state = always
+background-opacity = 0.95
+background-blur = 20
+macos-titlebar-style = tabs
+macos-option-as-alt = true
+
+# Cursor
+cursor-style = bar
+cursor-style-blink = false
+# ssh-terminfo auto-installs xterm-ghostty on remotes; ssh-env forwards TERM_PROGRAM/COLORTERM
+shell-integration-features = cursor,sudo,title,ssh-env,ssh-terminfo
+
+# Scrollback / mouse
+# scrollback-limit is in bytes (~10MB)
+scrollback-limit = 10000000
+mouse-hide-while-typing = true
+copy-on-select = clipboard
+confirm-close-surface = false

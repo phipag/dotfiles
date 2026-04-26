@@ -8,7 +8,7 @@ window-save-state = always
 background-opacity = 0.95
 background-blur = 20
 macos-titlebar-style = tabs
-macos-option-as-alt = true
+macos-option-as-alt = false
 
 # Cursor
 cursor-style = bar

@@ -70,6 +70,13 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting zsh-z npm poetry aws tmux)
 
+# Ghostty shell integration — auto-injection via ZDOTDIR is clobbered by OMZ
+# resetting precmd_functions. Source it before OMZ so p10k builds PS1 on top
+# without integration marks leaking into p10k's pattern matching.
+if [[ -n $GHOSTTY_RESOURCES_DIR ]]; then
+  source "$GHOSTTY_RESOURCES_DIR"/shell-integration/zsh/ghostty-integration
+fi
+
 source $ZSH/oh-my-zsh.sh
 
 # mise - dev tools version manager

@@ -10,6 +10,14 @@ background-blur = 20
 macos-titlebar-style = tabs
 macos-option-as-alt = false
 
+# Keep Option for composing special chars (German layout: @ [ ] { } | \) by
+# leaving option-as-alt off, but remap the word-edit combos to the Alt-prefixed
+# byte sequences so they work in TUIs like Claude Code that use the Kitty
+# keyboard protocol directly (tmux normalizes these, native sessions do not).
+keybind = opt+backspace=text:\x1b\x7f
+keybind = opt+left=text:\x1bb
+keybind = opt+right=text:\x1bf
+
 # Cursor
 cursor-style = bar
 cursor-style-blink = false
